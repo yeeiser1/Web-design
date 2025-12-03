@@ -55,7 +55,8 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto 1.5rem;
+    /* margin: 0 auto 1.5rem; */
+    margin: 4rem auto;
 }
 
 h1 {
@@ -180,7 +181,8 @@ p {
     padding-top: 125px;
     box-sizing: border-box;
     overflow-y: auto;
-    /* background: #ededed; */
+    background: var(--background);
+    border: var(--foreground);
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     transform-origin: 0% 0%;
@@ -236,9 +238,9 @@ footer p {
         max-width: 50rem;
     }
 
-    #menu {
+    /* #menu {
         width: 260px;
-    }
+    } */
 
     #menuToggle {
         top: 30px;
